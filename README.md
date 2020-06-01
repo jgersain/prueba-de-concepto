@@ -19,7 +19,7 @@ $ docker run --name postgres-docker -e POSTGRES_PASSWORD=postgres -p 5432:5432 -
 $ docker exec -it postgres-docker psql -U postgres -c "create role pgdev with login superuser password 'developer'"
 ```
 
-El SQL de la base de datos v.1.0 esta dentro del directorio [/bd/aeroespacial.sql](), el diagrama UML en el siguiente:
+El SQL de la base de datos v.1.0 esta dentro del directorio [/bd/aeroespacial.sql](/bd/aeroespacial.sql), el diagrama UML en el siguiente:
 
 ![image](bd/Screenshot_2.png)
 
